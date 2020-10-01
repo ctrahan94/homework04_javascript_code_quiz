@@ -1,0 +1,38 @@
+body {
+  background-color: papayawhip;
+}
+
+.left{
+  justify-content: end;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20%;
+}
+
+h2 {
+text-align: center;
+}
+
+#timer {
+  margin-right: 3%;
+}
+
+#hide {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.choice {
+  margin: 1%;
+  display: block;
+}
+
+#initials {
+  margin-left: 40%;
+}
+
+a {
+  color: red;
+}
