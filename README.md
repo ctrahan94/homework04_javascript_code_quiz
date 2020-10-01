@@ -14,6 +14,11 @@ To test your skills on the fundamentals of JavaScript.
 ## The Solution
 Used javascript to create a series of functions and if statements to build a timed quiz. 
 
+## Credit
+I had a good amount of help from my tutor Tyler as well as a handful of my classmates.
+
+
+
 ### What the deployed site looks like
 #### Main Page
 ![Main Page](assets/images/mainpage.png)
