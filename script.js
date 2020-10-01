@@ -14,6 +14,10 @@ function startCountdown() {
       clearInterval(myCountdown);
     }
   }, 1000);
+  
+  //This removes the text on the first page, so the questions can display
+  quiz.style.display = "none";
+  questionDiv.style.display = "block";
 }
 
 start.addEventListener("click", startCountdown);
