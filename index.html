@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Code Quiz</title>
+    <title>practice</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -18,7 +18,7 @@
       <div class="container">
         <div class="row">
           <div class="col-3">
-            <a id="scores" href="highscores.html"> View High Scores </a>
+            <a id="scores"> View High Scores </a>
           </div>
 
           <div class="col-3"></div>
@@ -58,6 +58,12 @@
       <h2>Enter your initials</h2>
       <input id="initials" />
       <button id="save">Save</button>
+    </div>
+
+    <div id="view-high-score" style="display: none">
+      <h2>High Scores:</h2>
+      <br>
+      <ol id="score-list"></ol>
     </div>
 
     <script
